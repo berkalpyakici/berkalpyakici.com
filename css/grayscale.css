@@ -321,10 +321,19 @@ footer {
   font-size: 24px;
 }
 .title {
-  font-family: 'Niconne', cursive !important;
-  font-size: 4.5rem !important;
+  /*font-family: 'Niconne', cursive !important;*/
+  font-size: 3rem !important;
   letter-spacing: 0rem !important;
 }
 .background-caption {
   position: absolute; right: 40px; bottom: 40px;
+}
+.img-sides {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.portrait-img {
+  max-height: 400px;
+  max-width: 80%;
 }
