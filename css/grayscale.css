@@ -1,8 +1,6 @@
-/*!
- * Start Bootstrap - Grayscale v5.0.3 (https://startbootstrap.com/template-overviews/grayscale)
- * Copyright 2013-2018 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
- */
+/*
+  Navigation
+*/
 
 #mainNav {
   min-height: 56px;
@@ -86,6 +84,10 @@
   }
 }
 
+/*
+  Master Head
+*/
+
 .masthead {
   position: relative;
   width: 100%;
@@ -101,7 +103,7 @@
 }
 
 .masthead h1 {
-  font-family: 'Varela Round';
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
@@ -138,11 +140,15 @@
   }
 }
 
+/*
+  Buttons
+*/
+
 .btn {
   -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
-  font-family: 'Varela Round';
+  font-family: 'Open Sans', sans-serif;
   font-size: 80%;
   text-transform: uppercase;
   letter-spacing: .15rem;
@@ -166,10 +172,16 @@
   background-color: #467370 !important;
 }
 
+.bg-black {
+  background-color: #161616 !important;
+}
+
+/*
+  About Section
+*/
+
 .about-section {
   padding-top: 10rem;
-  /*background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgba(22, 22, 22, 0.8)));
-  background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);*/
   background: #161616;
 }
 
@@ -177,8 +189,27 @@
   margin-bottom: 5rem;
 }
 
+/*
+  Projects Section
+*/
+
 .projects-section {
   padding: 7rem 0;
+  position: relative;
+}
+
+.projects-section section-bg-l {
+  position: absolute;
+  font-size: 3000%;
+  color: rgba(0, 0, 0, 0.13);
+  left: 10%;
+}
+
+.projects-section section-bg-r {
+  position: absolute;
+  font-size: 3000%;
+  color: rgba(0, 0, 0, 0.13);
+  right: 10%;
 }
 
 .projects-section .featured-text {
@@ -193,13 +224,21 @@
 }
 
 .projects-section .project-text {
+  font-family: 'Open Sans Condensed', sans-serif;
   padding: 3rem;
   font-size: 90%;
+}
+.projects-section .project-text h5 {
+  margin-bottom: 0rem;
+}
+
+.projects-section .project-text p {
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 @media (min-width: 992px) {
   .projects-section .project-text {
-    padding: 5rem;
+    padding: 3rem;
   }
   .projects-section .project-text hr {
     border-color: #64a19d;
@@ -208,7 +247,18 @@
   }
 }
 
-.signup-section {
+.chronology-time {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 180%;
+  padding: 2rem 1rem;
+  padding-top: 3rem;
+}
+
+/*
+  Contact Section
+*/
+
+.contact-section {
   position: relative;
   padding: 10rem 0;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.7)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/bg-contact.jpg");
@@ -219,91 +269,21 @@
   background-size: cover;
 }
 
-.signup-section .form-inline input {
+.contact-section .form-inline input {
   -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
   height: auto;
-  font-family: 'Varela Round';
+  font-family: 'Open Sans Condensed', sans-serif;
   font-size: 80%;
   text-transform: uppercase;
   letter-spacing: 0.15rem;
   border: 0;
 }
 
-.contact-section {
-  padding: 5rem 0 0;
-}
-
-.contact-section .card {
-  border: 0;
-  border-bottom: 0.25rem solid #64a19d;
-}
-
-.contact-section .card h4 {
-  font-size: 0.8rem;
-  font-family: 'Varela Round';
-  text-transform: uppercase;
-  letter-spacing: 0.15rem;
-}
-
-.contact-section .card hr {
-  border-color: #64a19d;
-  border-width: 0.25rem;
-  width: 3rem;
-}
-
-.contact-section .social {
-  margin-top: 5rem;
-}
-
-.contact-section .social a {
-  text-align: center;
-  height: 3rem;
-  width: 3rem;
-  background: rgba(255, 255, 255, 0.1);
-  border-radius: 100%;
-  line-height: 3rem;
-  color: rgba(255, 255, 255, 0.3);
-}
-
-.contact-section .social a:hover {
-  color: rgba(255, 255, 255, 0.5);
-}
-
-.contact-section .social a:active {
-  color: #fff;
-}
-
-body {
-  font-family: 'Nunito';
-  letter-spacing: 0.0625em;
-}
-
-a {
-  color: #64a19d;
-}
-
-a:focus, a:hover {
-  text-decoration: none;
-  color: #3c6360;
-}
-
-.bg-black {
-  background-color: #161616 !important;
-}
-
-.bg-primary {
-  background-color: #64a19d !important;
-}
-
-.text-primary {
-  color: #64a19d !important;
-}
-
-footer {
-  padding: 5rem 0;
-}
+/*
+  Social Buttons
+*/
 
 #socialsNav .social-link {
   -webkit-transition: none;
@@ -320,19 +300,66 @@ footer {
 #socialsNav {
   font-size: 24px;
 }
-.title {
-  /*font-family: 'Niconne', cursive !important;*/
-  font-size: 3rem !important;
-  letter-spacing: 0rem !important;
+
+/*
+  Body & General Styling
+*/
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 0.0625em;
 }
+
+a {
+  color: #64a19d;
+}
+
+a:focus, a:hover {
+  text-decoration: none;
+  color: #3c6360;
+}
+
+.text-primary {
+  color: #64a19d !important;
+}
+
+.text-green {
+  color: #228B22 !important;
+}
+
+.text-blue {
+  color: #00008B !important;
+}
+
+/*
+  Footer
+*/
+
+footer {
+  padding: 5rem 0;
+}
+
+/*
+  Extra Elements
+*/
+
 .background-caption {
   position: absolute; right: 40px; bottom: 40px;
 }
+
 .img-sides {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
+
+.img-fit {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+
 .portrait-img {
   max-height: 400px;
   max-width: 80%;
