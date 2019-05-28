@@ -323,6 +323,10 @@ a:focus, a:hover {
   color: #64a19d !important;
 }
 
+.text-gold {
+  color: #DAA520 !important;
+}
+
 .text-green {
   color: #228B22 !important;
 }
