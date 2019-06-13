@@ -348,6 +348,7 @@ footer {
 */
 
 .background-caption {
+  font-family: 'Open Sans Condensed', sans-serif;
   position: absolute; right: 40px; bottom: 40px;
 }
 
