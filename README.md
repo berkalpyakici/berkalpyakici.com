@@ -36,6 +36,28 @@ Install required Python packages:
 pip install -r requirements.txt
 ```
 
+Since this is a local dev build, we need to create a test database. Add `local_settings.py` into `app/`, where `settings.py` 
+file is located at:
+```bash
+touch app/local_settings.py
+```
+
+Open `local_settings.py` with your favorite editor and add the following:
+```bash
+vim app/local_settings.py
+```
+```bash
+import os
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    }
+}
+```
+
 Migrate the database (I use PostgreSQL, but Django supports [many](https://docs.djangoproject.com/en/2.2/ref/databases/) database engines):
 ```bash
 python app/manage.py migrate
@@ -62,4 +84,6 @@ python app/manage.py runserver
 The server is now live on `localhost:8000`.
 
 ## Installation (Using Heroku)
-TBA
+Luckly for you, this repository is structured to allow Heroku to directly build after push to `master`. However, there are still some settings that need to be added on Heroku dashboard to start using berkalpyakici.com.
+
+To be continued...
