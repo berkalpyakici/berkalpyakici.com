@@ -32,9 +32,7 @@ export default class SocialButtons extends Component {
     let myData = this.state.socials || {}
 
     return(
-      myData.forEach(mapping => {
-          <div>id: {mapping.id}, url: {mapping.icon}</div>
-      })
+      <h1>Hello World!</h1>
     )
   }
 }
