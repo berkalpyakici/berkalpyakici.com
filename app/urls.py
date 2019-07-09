@@ -26,5 +26,5 @@ router.register(r'socials', views.SocialView, 'socials')
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include(router.urls)),
-    #re_path(r'^', views.FrontendAppView.as_view()),
+    re_path(r'^', views.FrontendAppView.as_view()),
 ]
