@@ -1,0 +1,16 @@
+{
+    "name": "berkalpyakici-webview",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "",
+    "author": "Berk Alp Yakici",
+    "license": "MIT",
+    "private": true,
+    "scripts": {
+      "heroku-prebuild": "NODE_ENV=production cd webview/ && yarn install && yarn build && cd .."
+    },
+    "cacheDirectories": [
+      "webview/node_modules"
+    ]
+  }
+  
