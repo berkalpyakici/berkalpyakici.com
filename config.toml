@@ -1,4 +1,21 @@
 baseURL = "https://berkalpyakici.com/"
 languageCode = "en-us"
 title = "Berk Alp Yakici"
-theme = "eureka"
+enableEmoji = true
+
+[params]
+  description = "Berk Alp Yakici's personal webpage."
+
+[menu]
+  [[menu.main]]
+    identifier = "contact"
+    name = "contact"
+    title = "contact"
+    url = "/contact"
+    weight = 10
+  [[menu.main]]
+    identifier = "resume"
+    name = "resume"
+    title = "resume"
+    url = "/files/berkalpyakici_resume.pdf"
+    weight = 20

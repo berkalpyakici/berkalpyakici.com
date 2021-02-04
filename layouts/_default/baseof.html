@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+{{- block "head" . }}
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {{ with .Site.Params.description -}}
+    <meta name="description" content="{{ . }}">
+    {{ end }}
+    <link rel="stylesheet" href="/css/uikit.min.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <script src="/js/uikit.min.js"></script>
+    <script src="/js/uikit-icons.min.js"></script>
+    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300&amp;display=swap" rel="stylesheet">
+
+    <title>{{ .Title }}</title>
+</head>
+{{- end }}
+
+<body class="uk-background-secondary">
+    <div class="uk-container uk-container-xsmall">
+        {{- block "header" . }}
+        {{ partial "header.html" . }}
+        {{ end }}
+        <main class="uk-text-justify">
+            {{ block "main" . }}
+            {{ end }}
+        </main>
+
+        {{ block "footer" . }}
+        {{ partial "footer.html" . }}
+        {{ end }}
+    </div>
+</body>
+</html>

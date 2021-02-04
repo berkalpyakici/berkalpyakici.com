@@ -1,0 +1,62 @@
+html {
+    background-color: #222;
+    /*font-family: 'Courier New', Courier, monospace;*/
+}
+
+h1, h2, h3, h4 {
+    color: #999;
+    padding-bottom: 0.5rem;
+}
+
+code {
+    margin: 0px 4px;
+    color: inherit !important;
+}
+
+/* Navbar */
+nav {
+    padding-bottom: 1.5rem;
+}
+
+nav .uk-logo {
+    font-family: inherit;
+    color: #999;
+}
+
+nav .uk-navbar-left a {
+    padding-left: 0;
+}
+
+nav .uk-navbar-nav li a {
+    font-family: inherit;
+    text-transform: inherit;
+    font-size: 1.1rem;
+}
+
+nav .uk-navbar-right li:last-child a {
+    padding-right: 0;
+}
+
+/* Footer */
+footer {
+    padding-top: 1.5rem;
+}
+
+footer p {
+    font-size: 0.9em;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+footer .uk-iconnav {
+    margin-top: 0.8rem;
+}
+
+footer .uk-iconnav li {
+    display: inline;
+    margin-right: 1em;
+}
+
+footer .uk-iconnav li:last-child {
+    margin-right: 0;
+}

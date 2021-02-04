@@ -1,0 +1,13 @@
+<nav class="uk-navbar-container uk-navbar-transparent" uk-navbar="mode: click">
+    <div class="uk-navbar-left">
+        <a class="uk-navbar-item uk-logo" href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+    </div>
+
+    <div class="uk-navbar-right">
+        <ul class="uk-navbar-nav">
+            {{ range .Site.Menus.main.ByWeight }}
+            <li>{{ .Pre }}<a href="{{ .URL }}" title="{{ .Title }}">{{- .Name -}}</a>{{ .Post }}</li>
+            {{ end }}
+        </ul>
+    </div>
+</nav>
