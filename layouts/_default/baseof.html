@@ -12,10 +12,13 @@
     <link rel="stylesheet" href="/css/style.css" />
     <script src="/js/uikit.min.js"></script>
     <script src="/js/uikit-icons.min.js"></script>
+
+    <link rel="shortcut icon" href="/favicon/favicon.ico">
+    <link rel="manifest" href="/site.webmanifest">
     
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300&amp;display=swap" rel="stylesheet">
 
-    <title>{{ .Title }}</title>
+    <title>{{ .Site.Title }}: {{ .Title }}</title>
 </head>
 {{- end }}
 

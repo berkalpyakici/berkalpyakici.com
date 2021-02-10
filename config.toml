@@ -9,13 +9,13 @@ enableEmoji = true
 [menu]
   [[menu.main]]
     identifier = "contact"
-    name = "contact"
-    title = "contact"
+    name = "Contact"
+    title = "Contact"
     url = "/contact"
     weight = 10
   [[menu.main]]
     identifier = "resume"
-    name = "resume"
-    title = "resume"
+    name = "Resume"
+    title = "Resume"
     url = "/files/berkalpyakici_resume.pdf"
     weight = 20
