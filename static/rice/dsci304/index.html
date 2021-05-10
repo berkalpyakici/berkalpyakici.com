@@ -31,8 +31,13 @@
 				<h3 class="uk-text-bold">Most Represented Countries</h3>
                 <p>
                     First, we investigate which countries have more players competing in the professional scene. For this, we take a look at all professional
-                    games played from November 2015 to March 2020, and note at how many unique professional players have played at least one game per each country.
-                    The plot suggests...
+                    games played from November 2015 to March 2020, and create a frequency map of how many unique professional players have played at least one 
+                    game per each country. Then, we represent this frequency on a world map, coloring each country with regards to the number of players being
+                    represened.
+                </p>
+                <p>
+                    The plot suggests that a very large number of playersare from the United States (1488), and there is a considerable number from European 
+                    Union, Russia, China, Oceania, and Brazil.
                 </p>
 				<div class="uk-overflow-auto">
 					<object data="p4.html" width="100%" height="700px"></object>
@@ -44,7 +49,16 @@
 			<div class="uk-container">
 				<h3 class="uk-text-bold">Disliked Maps</h3>
                 <p>
-                    
+                    Each game is played on one of the seven official maps, and the teams usually veto maps before games begin. That way, out of seven maps 
+                    in the circulation, only one of them gets played at each game. Sometimes, the games are played in the best-of-three (BO3) format, in which
+                    each team veto one map, then pick one map, then veto one more map - and the remaining map becomes the third map in the game series.
+                </p>
+                <p>
+                    Across years, some maps get into the circulation and some maps leave. However, at any given time, there are always 7 maps in the competitive
+                    pool. Thus, in this section, we investigate which maps were vetoed out in the recent three years.
+                </p>
+                <p>
+                    Here, we pick the maps that were in the competitive pool: In 2018 and 2019, there were two switches, and thus, we compare 8 maps.
                 </p>
                 <div data-uk-scrollspy="cls: uk-animation-slide-bottom-small; target: > div > .uk-card; delay: 200" data-uk-grid></div>
                     <div class="uk-card uk-card-default uk-card-hover uk-flex uk-flex-column uk-margin-medium-bottom" data-uk-scrollspy-class="uk-animation-slide-left-small">
@@ -54,6 +68,12 @@
                         <div class="uk-card-body uk-flex-1">
                             <img src="p5-2018.png" width="100%" />
                         </div>
+                        <div class="uk-card-footer">
+                            <p>
+                                We can observe that the most hated maps in 2018 were Nuke, Cache, and Overpass. On the other hand, Cobblestone, Mirage, and Dust 2
+                                were more favorable.
+                            </p>
+                        </div>
                     </div>
                     <div class="uk-card uk-card-default uk-card-hover uk-flex uk-flex-column uk-margin-medium-bottom" data-uk-scrollspy-class="uk-animation-slide-left-small">
                         <div class="uk-card-header uk-text-center">
@@ -62,13 +82,11 @@
                         <div class="uk-card-body uk-flex-1">
                             <img src="p5-2019.png" width="100%" />
                         </div>
-                    </div>
-                    <div class="uk-card uk-card-default uk-card-hover uk-flex uk-flex-column uk-margin-medium-bottom" data-uk-scrollspy-class="uk-animation-slide-left-small">
-                        <div class="uk-card-header uk-text-center">
-                            <h4 class="uk-text-bold">2020</h4>
-                        </div>
-                        <div class="uk-card-body uk-flex-1">
-                            <img src="p5-2020.png" width="100%" />
+                        <div class="uk-card-footer">
+                            <p>
+                                Again, we can observe that the most hated maps in 2019 were Nuke and Overpass. Additionally, Train is higher up on the list this year.
+                                On the other hand, Cache, Inferno, and Mirage were more favorable.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -79,7 +97,14 @@
 			<div class="uk-container">
 				<h3 class="uk-text-bold">Sided Maps</h3>
                 <p>
-                    ASddsd
+                    One of the reasons why maps get circulated in and out of the pool is because they are oftentimes sided. For context, each game consists of 30 rounds at
+                    maximum (without overtime), where each team plays on CT and T sides for 15 rounds each. Some maps, due to their layout, give advantage to one of the sides.
+                    As a result, the games become more predictable and oftentimes less entertaining. While this benefits some teams, some others are not really fond of this.
+                </p>
+                <p>
+                    Here, we analyze the percentage of rounds won by the CT side for each map, in each month since November 2015 until March 2020. We observe that on average,
+                    some maps lean towards CT and some maps lean towards T, and those who are heavily skewed are taken out of the competitive map pool and are added back when
+                    the necessary changes are done on the maps.
                 </p>
 				<div class="uk-overflow-auto">
 					<object data="p2.html" width="100%" height="700px"></object>
@@ -91,7 +116,17 @@
 			<div class="uk-container">
 				<h3 class="uk-text-bold">Top Teams</h3>
                 <p>
-                    
+                    There are various tiers in the professional scene (just like any other professional sports),
+                    and global team rankings oftentime take this into account. One of the most popular (and widely accepted) rankings 
+                    are produced by HLTV.org. Here, I rank teams based on a much simpler metric: The percentage of the games they won.
+                </p>
+                <p>
+                    Some teams only played one or two games, making their winning rate oftentimes 100%. Thus here, I only rank teams that
+                    have played at least 100 games during that year. This way, some lesser well know teams that outperform their opponents 
+                    within their region and/or league are highlighted.
+                </p>
+                <p>
+                    Some teams, like Sprout and AVANGAR placed top 10 in both 2018 and 2019.
                 </p>
                 <div data-uk-scrollspy="cls: uk-animation-slide-bottom-small; target: > div > .uk-card; delay: 200" data-uk-grid></div>
                     <div class="uk-card uk-card-default uk-card-hover uk-flex uk-flex-column uk-margin-medium-bottom" data-uk-scrollspy-class="uk-animation-slide-left-small">
@@ -118,13 +153,36 @@
 			<div class="uk-container">
 				<h3 class="uk-text-bold">Equipment Value vs Win Rate</h3>
                 <p>
-                    ASddsd
+                    At the beginning of each round, teams purchase equipment that help them eliminate their opponents and give them advantage in certain 
+                    situations. To make the game more challenging, the developers added an in-game economy, where each player has a budget (0 - 16,000 dollars).
+                    At the beginning each round, each player is rewarded based on their team's and their own performance in the previous round.
+                </p>
+                <p>
+                    Here, we investigate the relationship in between team's total equipment value and the likelihood of them winning the round. To achieve this, we 
+                    make use of logistic regression.
                 </p>
 				<div class="uk-overflow-auto">
 					<object data="p1.html" width="100%" height="700px"></object>
 				</div>
+                <p>
+                    We can clearly observe that as the total equipment value increases, the team's likelihood of winning the round increases significantly as well.
+                    However, it never goes down below about 20% and go above about 90%, which means that in certain sitautions, teams can still lose rounds if they
+                    don't play strategically with their equipment. This makes room for very exciting (and sometimes upsetting) situations!
+                </p>
 			</div>
 		</section>
+
+        <footer class="uk-section-secondary">
+			<div class="uk-section uk-section-xsmall">
+				<div class="uk-container">
+					<div class="uk-grid uk-child-width-1-2@s uk-text-center uk-text-left@s" data-uk-grid>
+						<div class="uk-text-small uk-text-muted">
+							Copyright © 2021 Berk Alp Yakici
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
         
 		
 		<!-- JS FILES -->
