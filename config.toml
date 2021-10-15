@@ -3,6 +3,9 @@ languageCode = "en-us"
 title = "Berk Alp Yakici"
 enableEmoji = true
 
+[markup.goldmark.renderer]
+  unsafe= true
+
 [params]
   description = "Berk Alp Yakici's personal webpage."
 
@@ -19,3 +22,9 @@ enableEmoji = true
     title = "Resume"
     url = "/files/berkalpyakici_resume.pdf"
     weight = 20
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    title = "Projects"
+    url = "/projects"
+    weight = 30
