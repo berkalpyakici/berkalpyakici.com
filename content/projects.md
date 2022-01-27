@@ -3,7 +3,7 @@ title: "Projects"
 url: projects
 ---
 
-**Multi-Seed Consensus Reference-Based Mapper (MSCRM)**
+**Multi-Seed Consensus Reference-Based Mapper (MSCRM)**  
 September - December 2021 [<a href="https://github.com/berkalpyakici/mscrm" class="uk-link-muted" target="_blank">Source</a>]
 
 * A reference-based read-mapper which performs ungapped alignment of paired sample reads with single nucleotide variants (SNVs) and spike-in contaminants on reference sequence.
