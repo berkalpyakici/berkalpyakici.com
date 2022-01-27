@@ -3,6 +3,16 @@ title: "Projects"
 url: projects
 ---
 
+**Multi-Seed Consensus Reference-Based Mapper (MSCRM)**
+September - December 2021 [<a href="https://github.com/berkalpyakici/mscrm" class="uk-link-muted" target="_blank">Source</a>]
+
+* A reference-based read-mapper which performs ungapped alignment of paired sample reads with single nucleotide variants (SNVs) and spike-in contaminants on reference sequence.
+* Results of mapping reads from SARS-COV-2 sequence:
+  * Mapped 6,657,204 reads in 20.52 seconds, and thus, achieved 19,465,509 reads/min throughput on a 12-core/24-thread Ryzen 9 5900X CPU machine.
+* Achieved recall of 0.999 and precision of 1.000.
+
+---
+
 **Predicting Satisfaction in Live Customer Support Chats Through NLP**  
 January - May 2021 [<a href="https://www.youtube.com/watch?v=Ee4k_NvjSKI" class="uk-link-muted" target="_blank">Project Video</a>]
 
