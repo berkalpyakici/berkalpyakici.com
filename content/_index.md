@@ -1,26 +1,12 @@
 ---
 title: "Home"
 ---
-I am a senior majoring in computer science with minors in data science and 
-mathematics at Rice University in Houston, TX. My research interests are 
-applications of machine learning and data science tools in natural language 
-processing, bioinformatics, and formal methods.
+I am a senior majoring in computer science with a minor in data science at Rice University in Houston, TX. I am also pursing a master of science degree in the field of computer science as an upcoming fifth year student, advised by [Luay Nakhleh](https://www.cs.rice.edu/~nakhleh/). My research interests are the applications of machine learning methods in bioinformatics and natural language processing. I am currently working distance measures on phylogenetic networks to better quantify how dissimilar two pairs of networks are.
 
-From software engineering perspective, I have experience in Python, Java, C, and 
-R for building scalable applications, data science, and deploying web 
-applications; Node.JS for building server and multi-platform desktop 
-applications; Javascript, HTML 5, and CSS for building UX-friendly user 
-interfaces and web-design; SQL for databases.
+I have industry experience in Python, Java, and C for building distributed and scalable applications. Additionally, I used R, NumPy, Pandas, and PyTorch in numerous data science projects that involve data visualization, analysis, machine learning, and more. Last but not the least, I used SQL for databases, as well as various NoSQL solutions (i.e. MongoDB).
 
-I am currently the Public Affairs Officer at Rice Eclipse (:rocket: club), 
-previously serving as the Avionics team lead, developing avionics software and 
-hardware that power our hybrid rocket engines. Additionally, I am the 
-co-president of Rice undergraduate computer science club. Academically, I 
-work in the Computer Science Department as the Head Teaching Assistant for 
-COMP 382. In the past, I was the Head Teaching Assistant for COMP 182 and a 
-Teaching Assistant for COMP 140.
+Extracurricularly, I currently serve as the Co-President of [Rice Computer Science Club](https://csclub.rice.edu/). Additionally, I am the Public Affairs Officer at [Rice Eclipse](http://eclipse.rice.edu/) (:rocket: club), previously serving as the Avionics Team Manager. Here, I developed avionics software and hardware that power hybrid rocket engines.
 
-After graduation, I will be joining Luay Nakhleh's Bioinformatics group as a
-fifth-year masters with thesis student, developing solutions to phylogenetics
-problems through data science. Feel free to reach out to me via "Contact" 
-section!
+Academically, I work in the Computer Science Department as the Head Teaching Assistant for COMP 182. I have also served as the Head Teaching Assistant for COMP 382 and a Teaching Assistant for COMP 140 in the past.
+
+Feel free to reach out to me via "Contact" section!
