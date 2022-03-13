@@ -17,6 +17,30 @@ hr {
     border-top: 1px solid #555;
 }
 
+a:link {
+    color: #999;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #999;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #666;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #666;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
 /* Navbar */
 nav {
     padding-bottom: 1.5rem;

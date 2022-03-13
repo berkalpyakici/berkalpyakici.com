@@ -3,9 +3,6 @@ languageCode = "en-us"
 title = "Berk Alp Yakici"
 enableEmoji = true
 
-[markup.goldmark.renderer]
-  unsafe= true
-
 [params]
   description = "Berk Alp Yakici's personal webpage."
 

@@ -1,13 +1,24 @@
-<nav class="uk-navbar-container uk-navbar-transparent" uk-navbar="mode: click">
+<nav class="uk-container uk-navbar-transparent" uk-navbar="mode: click">
     <div class="uk-navbar-left">
         <a class="uk-navbar-item uk-logo" href="/">{{ .Site.Title }}</a>
     </div>
 
     <div class="uk-navbar-right">
-        <ul class="uk-navbar-nav">
+        <ul class="uk-navbar-nav uk-visible@s">
             {{ range .Site.Menus.main.ByWeight }}
-            <li>{{ .Pre }}<a href="{{ .URL }}" title="{{ .Title }}">{{- .Name -}}</a>{{ .Post }}</li>
+            <li>{{ .Pre }}<a href="{{ .URL }}" title="{{ .Title }}"{{ if (strings.HasSuffix .URL ".pdf") }} target="_blank"{{ end }}>{{- .Name -}}</a>{{ .Post }}</li>
+            {{ end }}
+        </ul>
+        <a href="#" class="uk-navbar-toggle uk-hidden@s" uk-navbar-toggle-icon uk-toggle="target: #sidenav"></a>
+    </div>
+</nav>
+
+<div id="sidenav" uk-offcanvas="flip: true" class="uk-offcanvas uk-hidden@s">
+    <div class="uk-offcanvas-bar">
+        <ul class="uk-nav">
+            {{ range .Site.Menus.main.ByWeight }}
+            <li>{{ .Pre }}<a href="{{ .URL }}" title="{{ .Title }}"{{ if (strings.HasSuffix .URL ".pdf") }} target="_blank"{{ end }}>{{- .Name -}}</a>{{ .Post }}</li>
             {{ end }}
         </ul>
     </div>
-</nav>
+</div>
