@@ -41,6 +41,36 @@ a:active {
     text-decoration: underline;
 }
 
+/* Tables */
+table {
+    width: 100%;
+}
+
+table th {
+    padding: 0 1.5rem;
+}
+
+table th:first-child {
+    padding-left: 0;
+}
+
+table th:last-child {
+    padding-right: 0;
+}
+
+table td {
+    padding: 0 1.5rem;
+    vertical-align: top;
+}
+
+table td:first-child {
+    padding-left: 0;
+}
+
+table td:last-child {
+    padding-right: 0;
+}
+
 /* Navbar */
 nav {
     padding-bottom: 1.5rem;

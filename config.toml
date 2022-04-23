@@ -2,9 +2,13 @@ baseURL = "https://berkalpyakici.com/"
 languageCode = "en-us"
 title = "Berk Alp Yakici"
 enableEmoji = true
+enableGitInfo = true
 
 [params]
   description = "Berk Alp Yakici's personal webpage."
+
+[frontmatter]
+  lastmod = ["lastmod", ":git", "date", "publishDate"]
 
 [menu]
   [[menu.main]]
