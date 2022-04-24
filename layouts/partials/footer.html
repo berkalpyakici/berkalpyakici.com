@@ -1,6 +1,6 @@
 <footer>
     {{- if .Lastmod }}
-        {{- $lastmod := .Lastmod.Format "02/01/2006" }}
+        {{- $lastmod := .Lastmod.Format "01/02/2006" }}
         <p class="uk-text-small uk-margin-bottom"><span uk-icon="icon: history;"></span> Page last updated on <time datetime="{{ .Lastmod }}" title="{{ .Lastmod }}">{{ $lastmod }}</time>.</p>
     {{- end }}
     <p>Copyright © 2017-{{ now.Format "2006"}} Berk Alp Yakici</p>
