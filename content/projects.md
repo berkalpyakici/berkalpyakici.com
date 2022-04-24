@@ -3,8 +3,17 @@ title: "Projects"
 url: projects
 ---
 
+**HoleyMoley: Senior Design Capstone Project (Video Game)**  
+January - May 2022 [[Game Information and Download]](/holeymoley)
+
+* Designed a multiplayer, 2D side-scrolling platformer game as a senior design capstone project using XNA framework in C#.
+* Built the physics engine, lighting engine, and rendering engine.
+* Designed the core game mechanics and helped building networking architecture.
+
+---
+
 **Multi-Seed Consensus Reference-Based Mapper (MSCRM)**  
-September - December 2021 [[Source]](https://github.com/berkalpyakici/mscrm)
+September - December 2021 [[Source]](https://github.com/berkalpyakici/mscrm) [[Presentation]](/files/yakici2021mscrm-presentation.pdf)
 
 * A reference-based read-mapper which performs ungapped alignment of paired sample reads with single nucleotide variants (SNVs) and spike-in contaminants on reference sequence.
 * Results of mapping reads from SARS-COV-2 sequence:
@@ -26,7 +35,7 @@ ongoing conversation.
 ---
 
 **Rice Eclipse Software for Engine Testing**  
-August 2019 - May 2021 [[Source]](https://github.com/rice-eclipse)
+August 2019 - May 2021 [[Source]](https://github.com/rice-eclipse) [[Project Video]](https://www.youtube.com/watch?v=nRdXOw37w1U)
 
 * Won "Best Aerospace or Transportation Technology" award in Rice 2021 
 Engineering Design Showcase
@@ -36,6 +45,15 @@ dashboard using UDP and TCP protocols with average 0.2% packet loss.
 * Designed a mission control dashboard in JavaScript using Node.JS and 
 Sockets.IO that calibrates, normalizes, and plots the incoming raw data, and 
 the analysis software performs high-pass filtering using Pandas on Python.
+
+---
+
+**Using Facial Recognition Methods for Large-Scale Multi-Class Landmark Classification Problem**  
+August - December 2020 [[Source]](https://github.com/berkalpyakici/landmark_recognition) [[Presentation]](/files/yakici2020landmark-presentation.pdf)
+
+* Built a convolutional neural network with EfficientNet-B7 feature extractor for multi-class landmark classification. The model is trained using ArcFace and Mini-Batch SGD.
+* Achieved a 0.998 micro Average Precision score when dataset is limited to 2 labels (binary classification).
+* Achieved 0.579 micro Average Precision score when the entire dataset is used (2,015 unique labels).
 
 ---
 
@@ -53,3 +71,10 @@ September 2019 at HackRice 9 [[Source]](https://github.com/berkalpyakici/bdc-hac
 * Placed 1st in Bill.com challenge for the best API integration and won MLH award for the best use of Google Cloud.
 * Built a virtual banking assistant that works with speech recognition using DialogFlow and TensorFlow.
 * Prepared and provided corpus to train HMM based machine-learning algorithm for labelling.
+
+---
+
+**Food Desert Map**  
+September 2018 at HackRice 8 [[Source]](https://github.com/berkalpyakici/janszen)
+* Won Indeed Challenge for developing technologies that aims to solve societal problems. 
+* Built a search engine that shows whether entered location is within a food desert using Google Maps and Search API.
