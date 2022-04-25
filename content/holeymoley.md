@@ -13,7 +13,10 @@ The game was designed by a team of 4 seniors at Rice University in Spring 2022 a
 ---
 
 **Download**  
-The game is freely availble on Windows, macOS, and Linux. Compiled binaries will be available to download soon.
+The game is freely availble on Windows, macOS, and Linux:
+* [Download HoleyMoley v1.0.0 for Windows (x64)](https://drive.google.com/file/d/11vP0v0ATfgedeWR7xgsOJT9LdtziBz32/view?usp=sharing)
+* [Download HoleyMoley v1.0.0 for macOS (x64)](https://drive.google.com/file/d/1s_R4Xet3E7J-SB7Qbi8uE9mToinZwuao/view?usp=sharing)
+* [Download HoleyMoley v1.0.0 for Linux (x64)](https://drive.google.com/file/d/1m7GJQSvSmRju-0vF73gYi7toU7bvyulj/view?usp=sharing)
 
 ![In-Game Footage 1](/img/holeymoley-1.png)
 
