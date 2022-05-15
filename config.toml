@@ -24,8 +24,14 @@ enableGitInfo = true
     url = "/files/berkalpyakici_resume.pdf"
     weight = 20
   [[menu.main]]
+    identifier = "publications"
+    name = "Publications"
+    title = "Publications"
+    url = "/publications"
+    weight = 30
+  [[menu.main]]
     identifier = "projects"
     name = "Projects"
     title = "Projects"
     url = "/projects"
-    weight = 30
+    weight = 40
